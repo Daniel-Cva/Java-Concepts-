@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class ArithmeticOperation {
+    public static void main(String []args){
+        // Input from user by Scanner Class
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the Value of A: ");
+        int var1 = scanner.nextInt();
+        System.out.println("Enter the Values of B: ");
+        int var2 = scanner.nextInt();
+        System.out.println("Value of A: " + var1);
+        System.out.println("Value of B; " + var2);
+        //Arithmetic Operations
+        System.out.println("Addition of A + B: " + (var1 + var2) );
+        System.out.println("Subtraction of A + B: " + (var1 - var2) );
+        System.out.println("Multiplication of A + B: " + (var1 * var2) );
+        System.out.println("Division of A + B(Quotient): " + (var1 / var2) );
+        System.out.println("Division Or Modulus of A + B(Remainder): " + (var1 % var2) );
+    }
+}
