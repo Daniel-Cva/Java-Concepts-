@@ -10,9 +10,9 @@ public class Main {
         deleteRecord(Url,UserName,Password);
         DeleteEmployeeTable(Url,UserName,Password);
     }
-    public static final String Url ="";
-    public static final String UserName = "";
-    public static final String Password = "";
+    public static final String Url =""; //Enter your database url 
+    public static final String UserName = ""; //Enter your database username 
+    public static final String Password = ""; //Enter your database password
     public static void CreateEmployeeTable( String Url, String UserName, String Password ) throws Exception {
         Connection connection = DriverManager.getConnection(Url,UserName,Password);
         Statement statement = connection.createStatement();
